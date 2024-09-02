@@ -1,0 +1,472 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@charset "UTF-8";
+
+/* --------------------------------
+ * base
+ * -------------------------------- */
+html {
+/*  font-size: 62.5%;*/
+/*  scroll-behavior: smooth;*/
+}
+body {
+  background: #D8D8D8;
+  color: #757575;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: "Hiragino Kaku Gothic ProN","Meiryo", sans-serif;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+h2 {
+  font-size: 1.4em;
+  margin: 0;
+/*  margin: 0.67em 0;*/
+  color: black;
+/*  font-family: "Hiragino Kaku Gothic ProN","Meiryo", sans-serif;*/
+}
+h3 {
+  font-size: 0.8em;
+  margin: 0;
+/*  margin: 0.67em 0;*/
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* --------------------------------
+ * parts
+ * -------------------------------- */
+.heading {
+  position: relative;
+  display: inline-block;
+  font-family: 'Roboto';
+  font-size: 21px;
+  color: #757575;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+.clearfix::after{
+  content: "";
+  display:  block;
+  clear: both;
+}
+
+/* --------------------------------
+ * header
+ * -------------------------------- */
+.header-index {
+  width: 580px;
+  padding: 250px 0 20px;
+  margin:0 auto;
+}
+.header-title{
+  width: 253px;
+  margin: 0 auto;
+}
+.title-logo{
+  position: relative;
+}
+.site-title {
+  font-size: 72px;
+  font-family: Arial-ItalicMT;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.title-logo::after{
+  content: '';
+  background-color: black;
+  position: absolute;
+  bottom: 15%;
+  right: 0;
+  width: 155px;
+  height: 45px;
+  z-index: -1;
+}
+.site-title-sub {
+  margin: 0 0 184px;
+  font-family: TimesNewRomanPSMT;
+  font-size: 14px;
+  color: #000000;
+  text-align: right;
+}
+.global-nav{
+  text-align: right;
+}
+.global-nav .nav-item{
+  display: inline-block;
+  margin: 0 10px;
+}
+.global-nav ul{
+  margin: 0;
+  padding: 0;
+}
+.nav_link{
+  font-family: TimesNewRomanPSMT;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/* --------------------------------
+ * magazine
+ * --------------------------------*/
+
+.magazine{
+  background-color: white;
+}
+.magazine-base {
+  width: 580px;
+  padding: 35px 0 35px;
+  margin: 0 auto;
+}
+.magazine-zone{
+/*  table-layout: fixed;*/
+  display: flex;
+  flex-wrap: wrap;
+  margin:  40px auto 0;
+}
+.magazine-zone > a {
+/*  display: table-cell;
+  position: relative;*/
+  margin: 0 auto;
+  padding-bottom: 25px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.magazine-zone > a:hover{
+/*  box-shadow: 0 0 6px -1px rgba(0,0,0,0.3);*/
+  opacity: 0.8;
+}
+.magazine-image{
+  width: 180px;
+  height:  120px;
+  object-fit: cover;
+}
+.magazine-title {
+  width: 180px;
+  max-height: 38px;
+  margin-bottom: 6px;
+  font-family: YuGo-Bold;
+  font-size: 12px;
+  color: #000000;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+/*  white-space: nowrap;*/
+/*タイトルは30文字の文字制限をつける*/
+}
+.magazine-date {
+  font-family: YuGo-Medium;
+  font-size: 10px;
+  color: #757575;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+/*ページネーション自体のデザイン*/
+.pagenation{
+  margin: 30px auto 0px;
+  font-family: YuGo-Medium;
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+  line-height: 18px;
+  letter-spacing: 4px;
+}
+.pagination span{
+}
+.pagination span a{
+  text-decoration: none;
+  color: #757575;
+}
+.pagination span:hover {
+}
+.pagination span a:hover {
+  color: #000000;
+}
+.pagination .next, .last, .prev, .first{
+  font-size: 18px;
+}
+
+
+/* --------------------------------
+ * about
+ * --------------------------------*/
+
+.about {
+  background-color: #F3F2F2;
+}
+.about-zone{
+  width: 580px;
+  padding: 40px 0 20px;
+  margin: 0 auto;
+}
+.about-text {
+  margin: 0;
+  padding: 0 10px;
+  font-family: HiraMinProN-W3;
+  font-size: 12px;
+  color: #757575;
+  letter-spacing: 1px;
+  line-height: 24px;
+  margin-top: 40px;
+  text-align: left;
+}
+.about-text::after {
+  content: "";
+  display: block;
+  width: 200px;
+  border-bottom: 1px solid #979797;
+  margin: 60px auto 0;
+}
+
+/* --------------------------------
+ * project
+ * --------------------------------*/
+
+.works {
+  background-color: #F3F2F2;
+}
+.project-zone{
+  width: 580px;
+  padding: 20px 0 40px;
+  margin: 0 auto;
+}
+.works-wrapper {
+/*  display: table;
+  table-layout: fixed;*/
+  display: flex;
+  flex-wrap:  wrap;
+  margin-top: 60px;
+}
+.works-wrapper::after {
+  content: "";
+  display: block;
+  width: 200px;
+  border-bottom: 1px solid #979797;
+  margin: 80px auto 0;
+}
+.work-box {
+  margin: 0 auto;
+/*  position: relative;
+  display: table-cell;*/
+/*  padding:0 17.5px;*/
+}
+.work-image {
+  width: 170px;
+  height: 100px;
+  object-fit: cover;
+}
+.work-inner{
+  margin-top: 20px;
+  width: 170px;
+  height: 26px;
+  font-size: 12px;
+}
+.work-text {
+  margin: 0;
+  width: 170px;
+  font-family: HiraMinProN-W3;
+  font-size: 10px;
+  color: #757575;
+  line-height: 17px;
+  text-align: left;
+}
+
+
+/* --------------------------------
+ * profile
+ * --------------------------------*/
+
+.profile {
+  background-color: #F3F2F2;
+}
+.profile-zone{
+  width: 580px;
+  padding: 0px 0 40px;
+  margin: 0 auto;
+}
+.profile-name{
+  margin: 60px 0 0;
+  font-family: HiraMinProN-W3;
+}
+.profile-text {
+  margin: 0;
+  font-family: HiraMinProN-W3;
+  font-size: 12px;
+  color: #757575;
+  letter-spacing: 1px;
+  line-height: 24px;
+  margin-top: 40px;
+}
+.profile-text::after {
+  content: "";
+  display: block;
+  width: 200px;
+  border-bottom: 1px solid #979797;
+  margin: 80px auto 0;
+}
+
+
+/* --------------------------------
+ * contact
+ * --------------------------------*/
+
+.contact {
+  background-color: #F3F2F2;
+}
+.contact-zone{
+  width: 580px;
+  padding: 0px 0 20px;
+  margin: 0 auto;
+}
+.contact-text {
+  margin: 0;
+  font-family: HiraMinProN-W3;
+  font-size: 12px;
+  color: #757575;
+  letter-spacing: 1px;
+  line-height: 24px;
+  margin: 60px 0 100px;
+}
+
+
+/* --------------------------------
+ * footer
+ * --------------------------------*/
+
+.footer{
+  padding: 20px 0;
+}
+.footer-text {
+  margin: 0;
+  font-family: Times-Roman;
+  font-size: 12px;
+  color: #000000;
+  line-height: 22px;
+}
+.other-wrapper{
+  background-color: #D8D8D8;
+}
+.other-wrapper a{
+  color: #D8D8D8;
+  text-decoration:none;
+}
+.other-log {
+  display: block;
+  font-size: 6px;
+  float:left;
+  color: #D8D8D8;
+}
+.other-sign {
+  display: block;
+  font-size: 6px;
+  float:right;
+  color: #D8D8D8;
+}
+
+
+/* --------------------------------
+ * smart phone
+ * -------------------------------- */
+@media (max-width: 1024px) {
+  body {
+    background-image: none;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 1.3rem;
+  }
+  .heading {
+    margin-top: 20px;
+    font-size: 2.5rem;
+  }
+  .button:hover {
+    opacity: 1;
+  }
+
+  /* --- header ---
+  .header {
+    padding-top: 60px;
+  }
+  .site-title-sub {
+    font-size: 1.7rem;
+  }
+  .site-title-sub::before,
+  .site-title-sub::after {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+  }
+  .site-title {
+    margin-top: 35px;
+    font-size: 5rem;
+  }
+
+  /* --- about --- */
+  .about-text {
+    line-height: 1.8;
+  }
+
+  /* --- works --- */
+  .works-wrapper,
+  .work-box {
+    display: block;
+  }
+  .work-image {
+    display: none;
+  }
+  .work-description {
+    position: relative;
+  }
+  .work-box::after {
+    top: 0;
+    height: 100%;
+    background-size: cover;
+    transform: none;
+  }
+
+  /* --- skills --- */
+  .skills-wrapper,
+  .skill-box {
+    display: block;
+  }
+  .skill-box {
+    margin: 40px auto;
+  }
+  .skill-icon {
+    width: 100px;
+    height: 100px;
+    font-size: 5rem;
+    line-height: 92px;
+  }
+  .skill-text {
+    margin: 0;
+  }
+
+  /* --- contact --- */
+  .contact {
+    padding-bottom: 80px;
+  }
+  .contact-form {
+    width: 80%;
+  }
+}
