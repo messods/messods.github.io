@@ -67,7 +67,7 @@ li {
  * -------------------------------- */
 .header-index {
   width: 580px;
-  padding: 250px 0 20px;
+  padding: 100px 0 20px;
   margin:0 auto;
 }
 .header-title{
@@ -79,11 +79,12 @@ li {
 }
 .site-title {
   font-size: 72px;
-  font-family: Arial-ItalicMT;
+  font-weight: bold;
+  font-family: Arial;
   color: #FFFFFF;
   text-decoration: none;
 }
-.title-logo::after{
+/*.title-logo::after{
   content: '';
   background-color: black;
   position: absolute;
@@ -92,16 +93,16 @@ li {
   width: 155px;
   height: 45px;
   z-index: -1;
-}
+}*/
 .site-title-sub {
-  margin: 0 0 184px;
+  margin: 30 0 50px;
   font-family: TimesNewRomanPSMT;
   font-size: 14px;
   color: #000000;
   text-align: right;
 }
 .global-nav{
-  text-align: right;
+  text-align: center;
 }
 .global-nav .nav-item{
   display: inline-block;
