@@ -8,7 +8,7 @@ html {
 /*  scroll-behavior: smooth;*/
 }
 body {
-  background: #D8D8D8;
+  background: #808080;
   color: #757575;
   text-align: center;
   font-size: 1.4rem;
@@ -125,7 +125,7 @@ li {
  * --------------------------------*/
 
 .magazine{
-  background-color: white;
+  background-color: #808080;
 }
 .magazine-base {
   width: 580px;
@@ -207,7 +207,7 @@ li {
  * --------------------------------*/
 
 .about {
-  background-color: #F3F2F2;
+  background-color: #808080;
 }
 .about-zone{
   width: 580px;
