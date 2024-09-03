@@ -49,20 +49,20 @@ text-decoration:none;
 }
 
 a:link {
-color:#0000FF;
+color:#FFFFFF;
 }
 
 a:visited {
-color:#6600FF;
+color:#FFFFFF;
 }
 
 a:hover {
-color:#FF0099;
-text-decoration:underline;
+color:#FFFFFF;
+text-decoration:wavy underline;
 }
 
 a:active {
-color:#33CC00;
+color:#FFFFFF;
 }
 
 
@@ -118,7 +118,7 @@ color:#33CC00;
 }*/
 .site-title-sub {
   margin: 30 0 50px;
-  font-family: TimesNewRomanPSMT;
+  font-family: ヒラギノ明朝 ProN W3;
   font-size: 14px;
   color: #FFFFFF;
   text-align: center;
