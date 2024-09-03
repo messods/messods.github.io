@@ -71,14 +71,14 @@ li {
   margin:0 auto;
 }
 .header-title{
-  width: 253px;
+/*  width: 253px;*/
   margin: 0 auto;
 }
 .title-logo{
   position: relative;
 }
 .site-title {
-  font-size: 72px;
+  font-size: 40px;
   font-weight: bold;
   font-family: Arial;
   color: #FFFFFF;
@@ -98,13 +98,14 @@ li {
   margin: 30 0 50px;
   font-family: TimesNewRomanPSMT;
   font-size: 14px;
-  color: #000000;
-  text-align: right;
+  color: #FFFFFF;
+  text-align: center;
 }
 .global-nav{
   text-align: center;
 }
 .global-nav .nav-item{
+  font-size: 16px;
   display: inline-block;
   margin: 0 10px;
 }
@@ -112,13 +113,13 @@ li {
   margin: 0;
   padding: 0;
 }
-.nav_link{
+/*.nav_link{
   font-family: TimesNewRomanPSMT;
   font-size: 16px;
   color: #000000;
   text-align: center;
   text-decoration: none;
-}
+}*/
 
 
 /* --------------------------------
