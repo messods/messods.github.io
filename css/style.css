@@ -118,10 +118,12 @@ color:#FFFFFF;
 }*/
 .site-title-sub {
   margin: 30 0 50px;
-  font-family: ヒラギノ明朝 ProN W3;
-  font-size: 14px;
+  font-family: HiraMinProN-W3;
+  font-size: 12px;
   color: #FFFFFF;
   text-align: center;
+  letter-spacing: 1px;
+  line-height: 24px;
 }
 .global-nav{
   text-align: center;
