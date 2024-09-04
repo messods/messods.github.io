@@ -106,6 +106,10 @@ color:#FFFFFF;
   text-decoration: none;
   margin: 20px 0;
 }
+.site-title a:hover {
+color:#FFFFFF;
+text-decoration:none;
+}
 /*.title-logo::after{
   content: '';
   background-color: black;
