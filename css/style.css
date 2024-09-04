@@ -156,6 +156,93 @@ text-decoration:none;
 }
 
 /* --------------------------------
+ * about
+ * --------------------------------*/
+
+.about {
+  background-color: #808080;
+}
+.about-zone{
+  width: 580px;
+  padding: 40px 0 20px;
+  margin: 0 auto;
+}
+.about-text {
+  margin: 0;
+  padding: 0 10px;
+  font-family: HiraMinProN-W3;
+  font-size: 12px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 24px;
+  margin-top: 40px;
+  text-align: left;
+}
+.about-text::after {
+  content: "";
+  display: block;
+  width: 200px;
+  border-bottom: 1px solid #979797;
+  margin: 60px auto 0;
+}
+
+/* --------------------------------
+ * profile
+ * --------------------------------*/
+
+.profile {
+  background-color: #808080;
+}
+.profile-zone{
+  width: 580px;
+  padding: 0px 0 40px;
+  margin: 0 auto;
+}
+.profile-name{
+  margin: 60px 0 0;
+  font-family: HiraMinProN-W3;
+}
+.profile-text {
+  margin: 0;
+  font-family: HiraMinProN-W3;
+  font-size: 12px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 24px;
+  margin-top: 40px;
+}
+.profile-text::after {
+  content: "";
+  display: block;
+  width: 200px;
+  border-bottom: 1px solid #979797;
+  margin: 80px auto 0;
+}
+
+
+/* --------------------------------
+ * contact
+ * --------------------------------*/
+
+.contact {
+  background-color: #F808080;
+}
+.contact-zone{
+  width: 580px;
+  padding: 0px 0 20px;
+  margin: 0 auto;
+}
+.contact-text {
+  margin: 0;
+  font-family: HiraMinProN-W3;
+  font-size: 12px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 24px;
+  margin: 60px 0 100px;
+}
+
+/* --------------------------------
  * magazine
  * --------------------------------*/
 
@@ -237,36 +324,7 @@ text-decoration:none;
 }
 
 
-/* --------------------------------
- * about
- * --------------------------------*/
 
-.about {
-  background-color: #808080;
-}
-.about-zone{
-  width: 580px;
-  padding: 40px 0 20px;
-  margin: 0 auto;
-}
-.about-text {
-  margin: 0;
-  padding: 0 10px;
-  font-family: HiraMinProN-W3;
-  font-size: 12px;
-  color: #757575;
-  letter-spacing: 1px;
-  line-height: 24px;
-  margin-top: 40px;
-  text-align: left;
-}
-.about-text::after {
-  content: "";
-  display: block;
-  width: 200px;
-  border-bottom: 1px solid #979797;
-  margin: 60px auto 0;
-}
 
 /* --------------------------------
  * project
@@ -322,61 +380,7 @@ text-decoration:none;
 }
 
 
-/* --------------------------------
- * profile
- * --------------------------------*/
 
-.profile {
-  background-color: #F3F2F2;
-}
-.profile-zone{
-  width: 580px;
-  padding: 0px 0 40px;
-  margin: 0 auto;
-}
-.profile-name{
-  margin: 60px 0 0;
-  font-family: HiraMinProN-W3;
-}
-.profile-text {
-  margin: 0;
-  font-family: HiraMinProN-W3;
-  font-size: 12px;
-  color: #757575;
-  letter-spacing: 1px;
-  line-height: 24px;
-  margin-top: 40px;
-}
-.profile-text::after {
-  content: "";
-  display: block;
-  width: 200px;
-  border-bottom: 1px solid #979797;
-  margin: 80px auto 0;
-}
-
-
-/* --------------------------------
- * contact
- * --------------------------------*/
-
-.contact {
-  background-color: #F3F2F2;
-}
-.contact-zone{
-  width: 580px;
-  padding: 0px 0 20px;
-  margin: 0 auto;
-}
-.contact-text {
-  margin: 0;
-  font-family: HiraMinProN-W3;
-  font-size: 12px;
-  color: #757575;
-  letter-spacing: 1px;
-  line-height: 24px;
-  margin: 60px 0 100px;
-}
 
 
 /* --------------------------------
