@@ -71,11 +71,11 @@ color:#FFFFFF;
 .heading {
   position: relative;
   display: inline-block;
-  font-family: 'Roboto';
+  font-family: Arial;
   font-size: 21px;
-  color: #757575;
+  color: #FFFFFF;
   letter-spacing: 1.5px;
-  text-align: center;
+  text-align: left;
 }
 .clearfix::after{
   content: "";
@@ -178,13 +178,13 @@ text-decoration:none;
   margin-top: 40px;
   text-align: left;
 }
-.about-text::after {
+/*.about-text::after {
   content: "";
   display: block;
   width: 200px;
   border-bottom: 1px solid #979797;
   margin: 60px auto 0;
-}
+}*/
 
 /* --------------------------------
  * profile
@@ -200,6 +200,7 @@ text-decoration:none;
 }
 .profile-name{
   margin: 60px 0 0;
+  color: #FFFFFF;
   font-family: HiraMinProN-W3;
 }
 .profile-text {
@@ -211,13 +212,13 @@ text-decoration:none;
   line-height: 24px;
   margin-top: 40px;
 }
-.profile-text::after {
+/*.profile-text::after {
   content: "";
   display: block;
   width: 200px;
   border-bottom: 1px solid #979797;
   margin: 80px auto 0;
-}
+}*/
 
 
 /* --------------------------------
