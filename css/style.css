@@ -161,7 +161,6 @@ text-decoration:none;
 
 .heading-text{
   margin: 0;
-  padding: 0 10px;
   font-family: HiraMinProN-W3;
   font-size: 18px;
   color: #FFFFFF;
@@ -174,20 +173,23 @@ text-decoration:none;
 .about {
   background-color: #808080;
 }
+.about-zone-top{
+  margin-top: 40px;
+}
 .about-zone{
   width: 580px;
-  padding: 40px 0 20px;
+  padding: 20px 0 0;
   margin: 0 auto;
 }
 .about-text {
   margin: 0;
-  padding: 0 10px;
+  padding: 0;
   font-family: yumincho;
   font-size: 13.5px;
   color: #FFFFFF;
   letter-spacing: 1px;
   line-height: 24px;
-  margin-top: 40px;
+
   text-align: left;
 }
 /*.about-text::after {
