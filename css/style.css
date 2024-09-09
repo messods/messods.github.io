@@ -163,6 +163,7 @@ text-decoration:none;
   margin: 0;
   font-family: HiraMinProN-W3;
   font-size: 18px;
+  font-weight: bold;
   color: #FFFFFF;
   letter-spacing: 1px;
   line-height: 24px;
@@ -174,7 +175,7 @@ text-decoration:none;
   background-color: #808080;
 }
 .about-zone{
-  width: 580px;
+  width: 800px;
   padding: 20px 0 0;
   margin: 0 auto;
 }
