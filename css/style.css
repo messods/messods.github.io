@@ -189,7 +189,16 @@ text-decoration:none;
   color: #FFFFFF;
   letter-spacing: 1px;
   line-height: 24px;
-
+  text-align: left;
+}
+.profile-name{
+  margin: 0;
+  padding: 0;
+  font-family: yumincho;
+  font-size: 13.5px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 24px;
   text-align: left;
 }
 /*.about-text::after {
@@ -211,11 +220,6 @@ text-decoration:none;
   width: 580px;
   padding: 0px 0 40px;
   margin: 0 auto;
-}
-.profile-name{
-  margin: 60px 0 0;
-  color: #FFFFFF;
-  font-family: HiraMinProN-W3;
 }
 .profile-text {
   margin: 0;
