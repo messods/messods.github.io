@@ -193,10 +193,12 @@ color:#FFFFFF;
 }
 .global-nav .nav-item-about{
   font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
   display: inline-block;
   margin: 0 10px;
   letter-spacing: 1px;
-  text-decoration: border;
+  text-decoration: underline overline 2px;
 }
 
 /* --------------------------------
