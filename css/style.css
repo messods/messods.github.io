@@ -58,8 +58,6 @@ color:#FFFFFF;
 
 a:hover {
 color:#FFFFFF;
-/*text-decoration:wavy underline;*/
-opacity: 0.7;
 }
 
 a:active {
@@ -129,6 +127,10 @@ color:#FFFFFF;
 .global-nav ul{
   margin: 0;
   padding: 0;
+}
+.nav-item:hover {
+color:#FFFFFF;
+opacity: 0.7;
 }
 .top-image{
   width: 580px;
@@ -233,7 +235,7 @@ color:#FFFFFF;
 .works-image{
   margin: 0 20px 0 0;
   width: 250px;
-  height: 200px;
+  height: 210px;
   object-fit: cover;
   display: block;
   float: left;
