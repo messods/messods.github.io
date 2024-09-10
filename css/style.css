@@ -256,9 +256,11 @@ text-decoration:none;
 }
 .works-title{
   margin-top: 20px;
-  width: 170px;
-  height: 26px;
-  font-size: 12px;
+  font-size: 16px;
+  font-family: yumincho;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: left;
 }
 .works-text {
   margin: 0;
@@ -269,12 +271,13 @@ text-decoration:none;
   letter-spacing: 1px;
   line-height: 24px;
   text-align: left;
+  float: left;
 }
 .works-image {
   width: 300px;
-/*  height: 200px;*/
   object-fit: cover;
-  float:right
+  display: block;
+  margin-right: auto;
 }
 
 /* --------------------------------
