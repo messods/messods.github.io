@@ -252,6 +252,8 @@ color:#FFFFFF;
   letter-spacing: 1px;
   line-height: 20px;
   text-align: left;
+  display: flex;
+  align-items: flex-end;
 }
 
 /* --------------------------------
