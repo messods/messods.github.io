@@ -58,7 +58,8 @@ color:#FFFFFF;
 
 a:hover {
 color:#FFFFFF;
-text-decoration:wavy underline;
+/*text-decoration:wavy underline;*/
+opacity: 0.7;
 }
 
 a:active {
@@ -211,10 +212,10 @@ color:#FFFFFF;
 .works-zone{
   width: 800px;
   padding: 0;
-  margin: 40px auto;
+  margin: 50px auto;
 }
 .works-box {
-  margin: 30px auto 0;
+  margin: 40px auto 0;
   padding: 0 30px 30px;
   background-color: #FFFFFF;
   overflow: hidden;
