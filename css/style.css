@@ -234,9 +234,9 @@ text-decoration:none;
 .works-wrapper {
 /*  display: table;
   table-layout: fixed;*/
-  display: flex;
+/*  display: flex;
   flex-wrap:  wrap;
-  margin-top: 60px;
+  margin-top: 60px;*/
 }
 /*.works-wrapper::after {
   content: "";
@@ -247,6 +247,7 @@ text-decoration:none;
 }*/
 .works-box {
   margin: 0 auto;
+  width: 800px;
   background-color: #F3F2F2;
   border-radius: 10px;
 /*  position: relative;
@@ -271,8 +272,9 @@ text-decoration:none;
 }
 .works-image {
   width: 300px;
-  height: 200px;
+/*  height: 200px;*/
   object-fit: cover;
+  float:right
 }
 
 /* --------------------------------
