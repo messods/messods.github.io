@@ -127,7 +127,6 @@ opacity: 0.7;
 /* --------------------------------
  * about
  * --------------------------------*/
-
 .heading-text{
   margin: 0;
   font-family: "HiraMinProN-W3","yumincho";
@@ -137,9 +136,6 @@ opacity: 0.7;
   letter-spacing: 1px;
   line-height: 24px;
   text-align: left;
-}
-.about {
-  background-color: #808080;
 }
 .about-zone{
   width: 800px;
@@ -193,10 +189,6 @@ opacity: 0.7;
 /* --------------------------------
  * works
  * --------------------------------*/
-
-.works {
-  background-color: #808080;
-}
 .works-zone{
   width: 800px;
   padding: 0;
@@ -247,7 +239,6 @@ opacity: 0.7;
 /* --------------------------------
  * footer
  * --------------------------------*/
-
 .footer{
   padding: 10px 0;
   clear:both;
