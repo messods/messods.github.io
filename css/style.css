@@ -255,14 +255,9 @@ opacity: 0.7;
 /* --------------------------------
  * smart phone
  * -------------------------------- */
-@media (max-width: 1024px) {
-  body {
-    background-image: none;
-  }
-}
 @media (max-width: 768px) {
   body {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
   }
   .heading {
     margin-top: 20px;
@@ -272,7 +267,7 @@ opacity: 0.7;
     opacity: 1;
   }
 
-  /* --- header ---
+/*   --- header ---*/
   .header {
     padding-top: 60px;
   }
@@ -290,12 +285,12 @@ opacity: 0.7;
     font-size: 5rem;
   }
 
-  /* --- about --- */
+/*   --- about ---*/
   .about-text {
     line-height: 1.8;
   }
 
-  /* --- works --- */
+/*   --- works ---*/
   .works-wrapper,
   .work-box {
     display: block;
@@ -311,22 +306,4 @@ opacity: 0.7;
     height: 100%;
     background-size: cover;
     transform: none;
-  }
-
-  /* --- skills --- */
-  .skills-wrapper,
-  .skill-box {
-    display: block;
-  }
-  .skill-box {
-    margin: 40px auto;
-  }
-  .skill-icon {
-    width: 100px;
-    height: 100px;
-    font-size: 5rem;
-    line-height: 92px;
-  }
-  .skill-text {
-    margin: 0;
   }
