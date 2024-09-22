@@ -256,21 +256,12 @@ opacity: 0.7;
  * smart phone
  * -------------------------------- */
 @media (max-width: 768px) {
-  body {
-/*  font-size: 1.3rem;*/
-  }
-  .heading {
-    margin-top: 20px;
-    padding: 30px 0 0;
-/*    font-size: 2.5rem;*/
-  }
-  .button:hover {
-    opacity: 1;
-  }
 
 /*   --- header ---*/
   .header-index {
   width: 100%;
+  padding: 30px 0 0;
+  margin:0 15px;
   }
   .site-title {
     margin-top: 35px;
