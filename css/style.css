@@ -271,19 +271,14 @@ opacity: 0.7;
   .header {
     padding-top: 60px;
   }
-  .site-title-sub {
-    font-size: 1.7rem;
-  }
-  .site-title-sub::before,
-  .site-title-sub::after {
-    display: block;
-    width: 80%;
-    margin: 10px auto;
-  }
   .site-title {
     margin-top: 35px;
-    font-size: 5rem;
+/*    font-size: 5rem;*/
   }
+  .site-title-sub {
+/*    font-size: 1.7rem;*/
+  }
+
 
 /*   --- about ---*/
   .about-text {
