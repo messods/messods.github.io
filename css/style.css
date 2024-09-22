@@ -273,12 +273,10 @@ opacity: 0.7;
     font-size: 11px;
   }
   .top-image-box{
-    position: relative;
     overflow: hidden;
   }
   .top-image{
     width: 150%;
-    position: absolute;
   }
 
 /*   --- about ---*/
