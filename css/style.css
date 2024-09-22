@@ -257,19 +257,19 @@ opacity: 0.7;
  * -------------------------------- */
 @media (max-width: 768px) {
   body {
-  font-size: 1.3rem;
+/*  font-size: 1.3rem;*/
   }
   .heading {
     margin-top: 20px;
-    font-size: 2.5rem;
+/*    font-size: 2.5rem;*/
   }
   .button:hover {
     opacity: 1;
   }
 
 /*   --- header ---*/
-  .header {
-    padding-top: 60px;
+  .header-index {
+  width: 100%;
   }
   .site-title {
     margin-top: 35px;
@@ -278,14 +278,26 @@ opacity: 0.7;
   .site-title-sub {
 /*    font-size: 1.7rem;*/
   }
+  .top-image{
+  width: 100%;
+  }
 
 
 /*   --- about ---*/
   .about-text {
     line-height: 1.8;
   }
+  .about-zone{
+    width: 100%;
+  }
+
 
 /*   --- works ---*/
+  .works-zone{
+  width: 100%;
+  }
+
+
   .works-wrapper,
   .work-box {
     display: block;
@@ -302,3 +314,4 @@ opacity: 0.7;
     background-size: cover;
     transform: none;
   }
+}
