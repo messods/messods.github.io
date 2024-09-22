@@ -266,15 +266,19 @@ opacity: 0.7;
     padding: 0 15px;
   }
   .site-title {
-    margin-top: 35px;
     font-size: 35px;
-    margin: 10px 0;
+    margin:35px 0 10px;
   }
   .site-title-sub {
     font-size: 11px;
   }
+  .top-image-box{
+    position: relative;
+    overflow: hidden;
+  }
   .top-image{
-    width: 100%;
+    width: 150%;
+    position: absolute;
   }
 
 /*   --- about ---*/
