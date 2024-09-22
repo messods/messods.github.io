@@ -270,13 +270,14 @@ opacity: 0.7;
     margin:35px 0 10px;
   }
   .site-title-sub {
+    margin: 0 0 50px;
     font-size: 11px;
   }
   .top-image-box{
     overflow: hidden;
   }
   .top-image{
-    width: 150%;
+    width: 200%;
   }
 
 /*   --- about ---*/
