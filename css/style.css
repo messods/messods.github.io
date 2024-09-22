@@ -305,5 +305,8 @@ opacity: 0.7;
     display: none;
   }
 
+/*   --- footer ---*/
+  .footer-text {
+    font-size: 10px;
 
 }
