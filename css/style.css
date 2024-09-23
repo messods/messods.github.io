@@ -185,9 +185,6 @@ opacity: 0.7;
   letter-spacing: 1px;
   text-decoration: underline overline 2px;
 }
-  .global-nav .global-nav-about{
-    margin-top: 0px;
-  }
 
 /* --------------------------------
  * works
@@ -293,7 +290,7 @@ opacity: 0.7;
   .about-zone{
     width: 100%;
   }
-  .global-nav .global-nav-about{
+  .global-nav-about{
     margin-top: 15px;
   }
 
