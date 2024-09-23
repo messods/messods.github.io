@@ -290,7 +290,9 @@ opacity: 0.7;
   .about-zone{
     width: 100%;
   }
-
+  .global-nav .global-nav-about{
+    margin-top: 15px;
+  }
 
 /*   --- works ---*/
   .works-zone{
