@@ -305,12 +305,22 @@ opacity: 0.7;
   .works-box {
     height: auto;
   }
+  .works-title{
+    margin: 20px 0;
+  }
   .works-image{
+    margin: 0 aruto;
+    width: 400px;
     float: none;
   }
+  .works-text{
+    color: black;
+  }
   .works-text-sub{
+    color: black;
     position: static;
   }
+
 
 /*   --- footer ---*/
   .footer{
