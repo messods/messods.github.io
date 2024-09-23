@@ -294,6 +294,9 @@ opacity: 0.7;
   .global-nav-about{
     margin-top: 15px;
   }
+  .global-nav .nav-item-about{
+    font-size: 14px;
+  }
 
 /*   --- works ---*/
   .works-zone{
