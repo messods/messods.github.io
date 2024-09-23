@@ -304,9 +304,11 @@ opacity: 0.7;
   }
   .works-box {
     height: auto;
+    overflow: hidden;
   }
   .works-title{
     margin: 20px 0;
+    color: black;
   }
   .works-image{
     margin: 0 aruto;
