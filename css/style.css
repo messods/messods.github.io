@@ -312,15 +312,11 @@ opacity: 0.7;
   }
   .works-image-box{
     overflow: hidden;
-    position: relative;
   }
   .works-image{
     margin: 0 auto;
     width: 400px;
     float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
   }
   .works-text{
     color: black;
