@@ -302,14 +302,14 @@ opacity: 0.7;
   .works-zone{
     width: 100%;
   }
-
-
-  .works-wrapper,
-  .work-box {
-    display: block;
+  .works-box {
+    height: auto;
   }
-  .work-image {
-    display: none;
+  .works-image{
+    float: none;
+  }
+  .works-text-sub{
+    position: static;
   }
 
 /*   --- footer ---*/
