@@ -303,6 +303,7 @@ opacity: 0.7;
     width: 100%;
   }
   .works-box {
+    padding: 0 30px 15px;
     height: auto;
   }
   .works-title{
@@ -321,7 +322,9 @@ opacity: 0.7;
     color: black;
   }
   .works-text-sub{
+    margin: 25px auto 0;
     color: black;
+    letter-spacing: 0.5px;
     position: static;
   }
 
