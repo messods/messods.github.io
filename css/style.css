@@ -59,7 +59,7 @@ a:active {
  * -------------------------------- */
 .clearfix::after{
   content: "";
-  display:  block;
+  display: block;
   clear: both;
 }
 .line {
@@ -321,7 +321,6 @@ opacity: 0.7;
     letter-spacing: 0.5px;
     position: static;
   }
-
 
 /*   --- footer ---*/
   .footer{
