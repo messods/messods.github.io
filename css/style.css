@@ -10,8 +10,8 @@ html {
 body {
   background: #808080;
   color: #808080;
-  text-align: center;
 /*  font-size: 1.4rem;*/
+  text-align: center;
   font-family: "yumincho","yu mincho","Hiragino Mincho ProN","MS PMincho",serif;
 /*  font-family: "Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo", sans-serif;*/
 }
@@ -102,6 +102,7 @@ a:active {
   line-height: 24px;
 }
 .global-nav{
+  font-family: "Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo", sans-serif;
   text-align: center;
 }
 .global-nav .nav-item{
