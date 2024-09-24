@@ -12,7 +12,8 @@ body {
   color: #808080;
   text-align: center;
 /*  font-size: 1.4rem;*/
-  font-family: "Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo", sans-serif;
+  font-family: "yumincho","yu mincho","Hiragino Mincho ProN","MS PMincho",serif;
+/*  font-family: "Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo", sans-serif;*/
 }
 h1 {
 /*  font-size: 2em;*/
@@ -94,7 +95,6 @@ a:active {
 }
 .site-title-sub {
   margin: 0 0 100px;
-  font-family: "HiraMinProN-W3","yumincho";
   font-size: 12px;
   color: #FFFFFF;
   text-align: center;
@@ -129,7 +129,6 @@ opacity: 0.7;
  * --------------------------------*/
 .heading-text{
   margin: 0;
-  font-family: "HiraMinProN-W3","yumincho";
   font-size: 18px;
   font-weight: bold;
   color: #FFFFFF;
@@ -149,7 +148,6 @@ opacity: 0.7;
 .about-text {
   margin: 0;
   padding: 20px 0 20px;
-  font-family: "yumincho";
   font-size: 13.5px;
   color: #FFFFFF;
   letter-spacing: 1px;
@@ -159,7 +157,6 @@ opacity: 0.7;
 .profile-name{
   margin: 30px auto 10px;
   padding: 0;
-  font-family: "yumincho";
   font-size: 18px;
   color: #FFFFFF;
   letter-spacing: 1px;
@@ -169,7 +166,6 @@ opacity: 0.7;
 .profile-name-sub{
   margin: 0 auto 10px;
   padding: 0;
-  font-family: "yumincho";
   font-size: 13.5px;
   color: #FFFFFF;
   letter-spacing: 1px;
@@ -207,7 +203,6 @@ opacity: 0.7;
   margin: 30px 0;
   font-size: 16px;
   font-weight: bold;
-  font-family: "yumincho";
   letter-spacing: 1px;
   text-align: left;
 }
@@ -220,14 +215,12 @@ opacity: 0.7;
   float: left;
 }
 .works-text{
-  font-family: "yumincho";
   font-size: 13px;
   letter-spacing: 1px;
   line-height: 20px;
   text-align: left;
 }
 .works-text-sub{
-  font-family: "yumincho";
   font-size: 10px;
   letter-spacing: 1px;
   line-height: 20px;
